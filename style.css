@@ -1,4 +1,7 @@
 html {
   height: 100%;
-  width: 100%;
+  width: 100%-50px;
+  padding: 25px;
+  margin-bottom: 25px;
+  background-color: #ffffff;
 }
