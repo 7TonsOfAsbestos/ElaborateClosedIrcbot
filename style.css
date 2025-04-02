@@ -1,9 +1,13 @@
 html {
   height: 100%;
-  width: 100%-50px;
-  padding: 25px;
-  margin-bottom: 25px;
+  width: 100%;
   background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  padding-top: 100px;
 }
 
 .header-box {
@@ -11,9 +15,10 @@ html {
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 60px;
   background-color: #e0e0e0;
   padding: 10px;
+  z-index: 100;
 }
 
 .dropdown-container {
