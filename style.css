@@ -41,13 +41,17 @@ html {
 }
 
 .forum-title {
-  display: inline-block;
+  position: fixed;
+  left: 20px;
+  top: 20px;
   padding: 10px 20px;
   background-color: #b6b6b6;
   color: black;
   border-radius: 4px;
   transition: all 0.3s ease;
   cursor: pointer;
+  margin: 0;
+  line-height: normal;
 }
 
 .forum-title:hover {
