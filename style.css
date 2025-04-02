@@ -40,6 +40,21 @@ html {
   cursor: pointer;
 }
 
+.forum-title {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b6b6b6;
+  color: black;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.forum-title:hover {
+  background-color: #f1f1f1;
+}
+
+
 .dropdown-content button:hover {
   background-color: #f1f1f1;
 }
