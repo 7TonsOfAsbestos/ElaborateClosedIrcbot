@@ -97,30 +97,24 @@ footer {
 }
 
 .section-content {
-  display: grid;
-  grid-template-columns: 200px 1fr 200px;
-  gap: 20px;
+  display: flex;
   align-items: center;
+  gap: 20px;
 }
 
-.section-content .image-placeholder {
+.section-content.reverse {
+  flex-direction: row-reverse;
+}
+
+.image-placeholder {
   width: 200px;
   height: 150px;
   background-color: #e0e0e0;
   border-radius: 8px;
 }
 
-.section-content .text-content {
-  grid-column: 2;
-  text-align: center;
-}
-
-.section-content:not(.reverse) .image-placeholder {
-  grid-column: 1;
-}
-
-.section-content.reverse .image-placeholder {
-  grid-column: 3;
+.text-content {
+  flex: 1;
 }
 
 h2, h3 {
