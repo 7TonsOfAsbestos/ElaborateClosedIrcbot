@@ -28,8 +28,7 @@ body {
 .dropdown-container {
   position: fixed;
   right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 20px;
 }
 
 .dropdown-btn {
@@ -63,8 +62,7 @@ body {
 .forum-title {
   position: fixed;
   left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 20px;
   padding: 10px 20px;
   color: black;
   margin: 0;
