@@ -92,6 +92,14 @@ footer {
   padding: 20px 0;
 }
 
+.content-section {
+  margin-bottom: 50px;
+}
+
+.text-right {
+  text-align: right;
+}
+
 h2, h3 {
   margin: 10px 0;
 }
