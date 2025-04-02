@@ -43,6 +43,7 @@ body {
   border-radius: 4px;
   font-size: 1.5em;
   height: 42px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .dropdown-content {
@@ -62,6 +63,7 @@ body {
   background: none;
   text-align: left;
   cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .forum-title {
