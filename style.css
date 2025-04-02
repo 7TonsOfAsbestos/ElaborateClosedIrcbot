@@ -1,5 +1,4 @@
 html {
-  height: 100vh;
   width: 100%;
   background-color: #ffffff;
 }
@@ -9,7 +8,6 @@ body {
   padding: 20px;
   padding-top: 100px;
   min-height: 100vh;
-  overflow-y: auto;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
