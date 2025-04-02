@@ -6,6 +6,16 @@ html {
   background-color: #ffffff;
 }
 
+.header-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+
 .dropdown-container {
   position: fixed;
   right: 20px;
