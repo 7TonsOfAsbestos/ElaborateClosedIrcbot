@@ -1,7 +1,7 @@
 
 document.getElementById('showMore').addEventListener('click', function() {
   document.getElementById('dropdownContent').classList.toggle('show');
-  this.textContent = this.textContent.includes('▼') ? 'Show More ▲' : 'Show More ▼';
+  this.textContent = this.textContent.includes('▼') ? '▲' : '▼';
 });
 
 window.addEventListener('click', function(event) {
