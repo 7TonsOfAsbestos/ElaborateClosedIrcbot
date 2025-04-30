@@ -11,7 +11,7 @@ window.addEventListener('click', function(event) {
       var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
-        document.getElementById('showMore').textContent = 'Show More ▼';
+        document.getElementById('showMore').textContent = '▼';
       }
     }
   }
