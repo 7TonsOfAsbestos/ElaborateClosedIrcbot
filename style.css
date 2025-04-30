@@ -109,13 +109,18 @@ footer {
 .text-content {
   flex: 1;
 }
-
+h1{
+  font-size:3.5vw;
+}
+h2{
+  font-size:3vw;
+}
 h3 {
   margin: 10px 0;
   font-size: 2.5vw;
 }
-h2{
-  font-size: 3vw
+h4{
+  font-size: 2vw
 }
 
 .text-right{
@@ -134,7 +139,7 @@ h2{
 }
 
 .icon{
-  font-size: 10vw;
+  font-size: 7.5vw;
   margin: 0;
   padding: 0;
   line-height: 1;
