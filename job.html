@@ -24,6 +24,50 @@
   </div>
     <h1>There are currently no open job spots.</h1>
     <h4>Don't worry yet! More job spots will be open later.</h4>
+    <div class="gallery">
+      <div class="gallery-item active"><img src="hqdefault.jpg?text=Image+1" alt=""></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/600x400?text=Image+2" alt=""></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/600x400?text=Image+3" alt=""></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/600x400?text=Image+4" alt=""></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/600x400?text=Image+5" alt=""></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/600x400?text=Image+6" alt=""></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/600x400?text=Image+7" alt=""></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/600x400?text=Image+8" alt=""></div>
+      <div class="gallery-item"><img src="https://via.placeholder.com/600x400?text=Image+9" alt=""></div>
+      <div class="gallery-item">
+        <iframe
+          src="https://www.youtube.com/embed/FIYksuvx4lY?enablejsapi=1&mute=1"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+          id="yt-video">
+        </iframe>
+      </div>
+    </div>
+
+    <script>
+      const items = document.querySelectorAll('.gallery-item');
+      const ytIframe = document.getElementById('yt-video');
+      let current = 0;
+
+      function showNextItem() {
+        if (items[current].contains(ytIframe)) {
+          ytIframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        }
+         items[current].classList.remove('active');
+
+            current = (current + 1) % items.length;
+
+            items[current].classList.add('active');
+          }
+
+          const tag = document.createElement('script');
+          tag.src = "https://www.youtube.com/iframe_api";
+          document.body.appendChild(tag);
+
+          setInterval(showNextItem, 3000);
+        </script>
+
 </body>
    <script src="script.js"></script>
     <footer class="ftr">footer, made by blah blah blah</footer>

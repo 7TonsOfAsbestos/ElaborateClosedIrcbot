@@ -147,3 +147,69 @@ h4{
   display: inline-block;
   vertical-align: middle;
 }
+.login-box {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  width: 250px;
+}
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.login-box button {
+  width: 25%;
+  padding: 10px;
+  background-color: #c8c8c8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login-box button:hover {
+  background-color: #646464;
+}
+.hidden-message {
+  display: none;
+  margin-top: 10px;
+  color: green;
+  text-align: center;
+}
+.gallery {
+  width: 600px;
+  height: 400px;
+  margin: 50px auto;
+  position: relative;
+  border: 2px solid #ccc;
+  overflow: hidden;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  transition: opacity 1s ease-in-out;
+}
+
+.gallery-item.active {
+  display: block;
+  z-index: 1;
+}
+
+iframe, img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+}
